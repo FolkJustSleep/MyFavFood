@@ -27,9 +27,18 @@ MyFavFood is a web application designed to help restaurants efficiently manage t
 
 	•	Run the provided SQL script to set up tables (if applicable).
 
-  4. Start the backend server:
+ 
+  4. Set up .env
+  ```
+    DB_HOST=<your-db-host>
+    DB_USER=<your-db-user>
+    DB_PASSWORD=<your-db-password>
+    DB_NAME=<your-db-name>
+    JWT_SECRET=<your_secret_key>
+  ```
+   5. Start the backend server:
   ``` bash
   cd backend
   node app.js
   ```
-  5. Open the frontend in a browser or deploy it on a web server.
+  6. Open the frontend in a browser or deploy it on a web server.
