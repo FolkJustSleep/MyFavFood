@@ -16,7 +16,7 @@ html, body {
 }
 
 .l-sidebar {
-    width: 422px;
+    width: 18%;
     background-color: #ffffff;
     padding: 20px;
     display: flex;
@@ -73,6 +73,7 @@ html, body {
 
 /* r-sidebar */
 .r-sidebar {
+    width: 82%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
