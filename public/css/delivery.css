@@ -184,7 +184,40 @@ a {
 #items-list::-webkit-scrollbar-thumb:hover {
     background-color: #aaaaaa; 
 }
-
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 10%;
+    gap: 10%;
+}
+.item-id{
+    border: 10px;
+    padding: 10px;
+}
+.item-name{
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item-quantity{
+    border: 10px;
+    padding: 10px;
+}
+.item-price{
+    border: 10px;
+    padding: 10px;
+}
+.item-total{
+    border: 10px;
+    padding: 10px;
+}
+.item-grid {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap: 10%;
+}
 /* input styled changes */
 .styled-input {
     height: 40px;
@@ -228,14 +261,14 @@ th {
     color: #1D1D1F;
 }
 
-.Delivery-ID {
+.price {
     display: flex;
     align-items: center;
     gap: 10px;
     width: 100%;
 }
 
-.Delivery-ID input {
+.price input {
     height: 60px;
     width: 100%;
     padding: 10px;

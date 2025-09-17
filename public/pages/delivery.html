@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Head title -->
     <title>MyFavFood | Delivery</title>
     <!-- Fav icon -->
-    <link rel="icon" href="../assets/images/FAVICON/apple-icon.png" type="image/png">    
+    <link rel="icon" href="../assets/images/FAVICON/apple-icon.png" type="image/png">
     <!-- Font link -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <!-- CSS Link -->
     <link rel="stylesheet" href="../css/delivery.css">
     <!-- Link Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <!-- Main content -->
     <div class="main-content">
@@ -63,72 +66,90 @@
                 <div class="container2">
                     <!-- Item list -->
                     <div id="items-list">
-                       <!-- รอ query items จาก database -->
-                    </div>
-                    <!-- Sidebar -->
-                    <div class="sidebar">
-                        <h3>Delivery ID</h3>
-                        <div class="Delivery-ID">
-                            <input type="text" id="delivery-id" placeholder="Enter Delivery ID (10000)" >
+                        <!-- รอ query items จาก database -->
+                        <div class="item">
+                            <p class="item-id">ID</p>
+                            <p class="item-name">Item Name</p>
+                            <p class="item-quantity">Quantity</p>
+                            <p class="item-price">Price</p>
+                            <p class="item-total">Total</p>
                         </div>
+                        <div class="item-grid">
+                            <div class="item-id">001</div>
+                            <div class="item-name">Coca-Cola</div>
+                            <div class="item-quantity">10</div>
+                            <div class="item-price">50</div>
+                            <div class="item-total">500</div>
+                        </div>
+                        <!-- Sidebar -->
+                        
+                    </div>
+                    <div class="sidebar">
+                            <h3>Price</h3>
+                            <div class="price">
+                                <input type="text" id="price" placeholder="Enter Price">
+                            </div>
                             <button class="add-button">Add</button>
                             <button class="save-button">Save</button>
-                        <div class="nav-buttons">
-                            <a href="../pages/inventory.html">
-                                <button class="back-btn"><i class="bi bi-caret-left"></i>Back</button>
-                            </a>
-                            <a href="../pages/overview.html">
-                                <button class="home-btn"><i class="bi bi-house-door"></i>Home</button>
-                            </a>
+                            <div class="nav-buttons">
+                                <a href="../pages/inventory.html">
+                                    <button class="back-btn"><i class="bi bi-caret-left"></i>Back</button>
+                                </a>
+                                <a href="../pages/overview.html">
+                                    <button class="home-btn"><i class="bi bi-house-door"></i>Home</button>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <!-- Footer -->
+                <footer>
+                    <div class="footer-section">
+                        <h3>ABOUT MyFavFood</h3> <br>
+                        <p>Our project's main goal is to make managing and running your business easier for you. Similar
+                            to Point of Sale, it helps you manage your own restaurant, control cash flow, and determine
+                            how much inventory you need. The interface user-friendly layout. You'll always have the most
+                            recent information.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>MORE INFORMATION</h3> <br>
+                        <div class="more-information-row">
+                            <div class="more-information-column1">
+                                <a href="../pages/overview.html">Overview</a>
+                                <a href="../pages/ring-sales.html">Ring Sales</a>
+                                <a href="../pages/finished-waste.html">Finished Waste</a>
+                                <a href="#">Recall Order</a>
+                                <a href="../pages/employees.html">Employees</a>
+                            </div>
+                            <div class="more-information-column2">
+                                <a href="../pages/time-punch.html">Time Punch</a>
+                                <a href="../pages/information.html">Information</a>
+                                <a href="../pages/cash-control.html">Cash Control</a>
+                                <a href="../pages/reprint.html">Reprint</a>
+                                <a href="../pages/void.html">Void Transaction</a>
+                            </div>
+                            <div class="more-information-column3">
+                                <a href="../pages/inventory.html">Inventory</a>
+                                <a href="../pages/delivery.html">Delivery</a>
+                                <a href="../pages/edit-waste.html">Edit Waste</a>
+                                <a href="../pages/stock.html">Stock</a>
+                                <a href="../pages/waste.html">Waste</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div> 
-            <!-- Footer -->
-            <footer>
-                <div class="footer-section">
-                    <h3>ABOUT MyFavFood</h3> <br>
-                    <p>Our project's main goal is to make managing and running your business easier for you. Similar to Point of Sale, it helps you manage your own restaurant, control cash flow, and determine how much inventory you need. The interface user-friendly layout. You'll always have the most recent information.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>MORE INFORMATION</h3> <br>
-                    <div class="more-information-row">
-                        <div class="more-information-column1">
-                            <a href="../pages/overview.html">Overview</a>
-                            <a href="../pages/ring-sales.html">Ring Sales</a>
-                            <a href="../pages/finished-waste.html">Finished Waste</a>
-                            <a href="#">Recall Order</a>
-                            <a href="../pages/employees.html">Employees</a>
-                        </div>
-                        <div class="more-information-column2">
-                            <a href="../pages/time-punch.html">Time Punch</a>
-                            <a href="../pages/information.html">Information</a>
-                            <a href="../pages/cash-control.html">Cash Control</a>
-                            <a href="../pages/reprint.html">Reprint</a>
-                            <a href="../pages/void.html">Void Transaction</a>
-                        </div>
-                        <div class="more-information-column3">
-                            <a href="../pages/inventory.html">Inventory</a>
-                            <a href="../pages/delivery.html">Delivery</a>
-                            <a href="../pages/edit-waste.html">Edit Waste</a>
-                            <a href="../pages/stock.html">Stock</a>
-                            <a href="../pages/waste.html">Waste</a>
-                        </div>
+                    <div class="footer-section">
+                        <h3>CONTACT INFORMATION </h3> <br>
+                        <p>© MyFavFood Theme by Y.KUNAKORN</p>
+                        <p>Power by Unknown banner</p> <br>
+                        <p>MyFavFood Co., Ltd.</p>
+                        <p>Tel: +66 83 151 5661</p>
                     </div>
-                </div>
-                <div class="footer-section">
-                    <h3>CONTACT INFORMATION </h3> <br>
-                    <p>© MyFavFood Theme by Y.KUNAKORN</p>
-                    <p>Power by  Unknown banner</p> <br>
-                    <p>MyFavFood Co., Ltd.</p>
-                    <p>Tel: +66 83 151 5661</p>
-                </div>
-            </footer><!-- Footer end -->
+                </footer><!-- Footer end -->
 
-        </div><!-- Right sidebar end -->
+            </div><!-- Right sidebar end -->
 
-    </div><!-- Main content end -->
+        </div><!-- Main content end -->
 
-    <script type="module" src="../js/delivery.js"></script>
+        <script type="module" src="../js/delivery.js"></script>
 </body>
+
 </html>
