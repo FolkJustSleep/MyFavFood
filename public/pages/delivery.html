@@ -66,24 +66,29 @@
                 <div class="container2">
                     <!-- Item list -->
                     <div id="items-list">
-                        <!-- รอ query items จาก database -->
-                        <div class="item">
-                            <p class="item-id">ID</p>
-                            <p class="item-name">Item Name</p>
-                            <p class="item-quantity">Quantity</p>
-                            <p class="item-price">Price</p>
-                            <p class="item-total">Total</p>
-                        </div>
-                        <div class="item-grid">
-                            <div class="item-id">001</div>
-                            <div class="item-name">Coca-Cola</div>
-                            <div class="item-quantity">10</div>
-                            <div class="item-price">50</div>
-                            <div class="item-total">500</div>
-                        </div>
-                        <!-- Sidebar -->
-                        
+                        <table class="items-table">
+                            <thead>
+                                <tr>
+                                    <th class="item-id">ID</th>
+                                    <th class="item-name">Item Name</th>
+                                    <th class="item-quantity">Quantity</th>
+                                    <th class="item-price">Price</th>
+                                    <th class="item-total">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="item-id">001</td>
+                                    <td class="item-name">Coca-Cola</td>
+                                    <td class="item-quantity">10</td>
+                                    <td class="item-price">50</td>
+                                    <td class="item-total">500</td>
+                                </tr>
+                                <!-- Additional items would go here -->
+                            </tbody>
+                        </table>
                     </div>
+                    
                     <div class="sidebar">
                             <h3>Price</h3>
                             <div class="price">

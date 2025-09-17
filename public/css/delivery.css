@@ -159,65 +159,61 @@ a {
 }
 /* scroll custom design */ 
 #items-list {
+    width: 65%;
     max-height: 400px;
-    overflow-y: auto; 
-    scrollbar-width: thin; 
-    scrollbar-color: #cccccc transparent; 
+    overflow-y: auto;
 }
 
-
-#items-list::-webkit-scrollbar {
-    width: 8px; 
-}
-
-#items-list::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-#items-list::-webkit-scrollbar-thumb {
-    background-color: #cccccc; 
-    border-radius: 10px; 
-    border: 2px solid transparent; 
-    background-clip: content-box; 
-}
-
-#items-list::-webkit-scrollbar-thumb:hover {
-    background-color: #aaaaaa; 
-}
-.item{
+/* Replace the item display styles with table-based styling */
+.item, .item-grid {
     display: flex;
     justify-content: space-between;
+    gap: 5px;
     padding: 10px;
     border: 10%;
-    gap: 10%;
 }
-.item-id{
+.item-id, .item-name, .item-quantity, .item-price, .item-total {
     border: 10px;
     padding: 10px;
 }
-.item-name{
-    border: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+/* New table styling */
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
 }
-.item-quantity{
-    border: 10px;
+
+.items-table th, .items-table td {
     padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #EDF2F6;
 }
-.item-price{
-    border: 10px;
-    padding: 10px;
+
+.items-table th {
+    font-weight: bold;
+    color: #1D1D1F;
 }
-.item-total{
-    border: 10px;
-    padding: 10px;
+
+.items-table .item-id {
+    width: 10%;
 }
-.item-grid {
-    display: flex;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    gap: 10%;
+
+.items-table .item-name {
+    width: 40%;
 }
+
+.items-table .item-quantity {
+    width: 15%;
+}
+
+.items-table .item-price {
+    width: 15%;
+}
+
+.items-table .item-total {
+    width: 20%;
+}
+
 /* input styled changes */
 .styled-input {
     height: 40px;
@@ -249,7 +245,8 @@ th {
 }
 /* buttons */
 .sidebar {
-    flex: 1;
+    /* flex: 1; */
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,8 +274,6 @@ th {
     border-radius: 12px;
     margin-bottom: 10px;
 }
-
-
 
 .crypto-button {
     height: 60px;
@@ -322,12 +317,13 @@ th {
     background-color: #FA5A7D;
     color: #FFE5E5;
 }
-
+/* Nav-btn */
 .nav-buttons {
     display: flex;
     gap: 20px;
     width: 100%;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .back-btn {
@@ -389,7 +385,6 @@ th {
     border-radius: 60px;
     background-color: #ffffff;
 }
-
 
 /* Footer */
 footer {
