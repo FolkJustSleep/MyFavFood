@@ -2,3 +2,6 @@
 .idea
 bfg.jar
 .env
+.vscode
+node_modules
+.DS_Store

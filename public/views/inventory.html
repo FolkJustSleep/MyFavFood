@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Head title -->
-    <title>MyFavFood | Cash Control</title>
+    <title>MyFavFood | Inventory</title>
     <!-- Fav icon -->
     <link rel="icon" href="../assets/images/FAVICON/apple-icon.png" type="image/png">    
     <!-- Font link -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <!-- CSS Link -->
-    <link rel="stylesheet" href="../css/cash-control.css">
+    <link rel="stylesheet" href="../css/inventory.css">
     <!-- Link Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
 </head>
@@ -20,16 +20,16 @@
     <div class="main-content">
         <!-- Left sidebar -->
         <div class="l-sidebar">
-            <a href="../pages/overview.html">
+            <a href="../views/overview.html">
                 <h1 class="logo">MyFavFood</h1>
             </a>
             <nav>
-                <a href="../pages/overview.html"><i class="bi bi-pie-chart"></i> Overview</a>
-                <a href="../pages/ring-sales.html"><i class="bi bi-graph-up"></i> Ring Sales</a>
-                <a href="../pages/finished-waste.html"><i class="bi bi-trash"></i> Finished Waste</a>
-                <a href="../pages/employees.html"><i class="bi bi-people"></i> Employees</a>
-                <a href="../pages/cash-control.html" class="active"><i class="bi bi-cash"></i> Cash Control</a>
-                <a href="../pages/inventory.html"><i class="bi bi-box-seam"></i> Inventory</a>
+                <a href="../views/overview.html"><i class="bi bi-pie-chart"></i> Overview</a>
+                <a href="../views/ring-sales.html"><i class="bi bi-graph-up"></i> Ring Sales</a>
+                <a href="../views/finished-waste.html"><i class="bi bi-trash"></i> Finished Waste</a>
+                <a href="../views/employees.html"><i class="bi bi-people"></i> Employees</a>
+                <a href="../views/cash-control.html"><i class="bi bi-cash"></i> Cash Control</a>
+                <a href="../views/inventory.html" class="active"><i class="bi bi-box-seam"></i> Inventory</a>
             </nav>
             <a href="../index.html" class="signout"><i class="bi bi-box-arrow-right"></i> Sign Out</a>
         </div><!-- Left sidebar end -->
@@ -40,7 +40,7 @@
                 <div class="nav-current">
                     <p class="nav">Login</p>
                     <p class="nav">></p>
-                    <p class="nav-active">Cash control</p>
+                    <p class="nav-active">Inventory</p>
                 </div>
                 <div class="user-info">
                     Guest01
@@ -52,8 +52,8 @@
                 <!-- section 1 -->
                 <div class="section1">
                     <div class="sub-container1">
-                        <h2>Cash control</h2>
-                        <a href="../pages/overview.html">
+                        <h2>Inventory</h2>
+                        <a href="../views/overview.html">
                             <button class="home-btn"><i class="bi bi-house-door"></i>Home</button>
                         </a>
                     </div>
@@ -63,67 +63,67 @@
                     <div class="menu-btn">
                         <!-- row1 -->
                         <div class="menu-row1">
-                            <a href="../pages/start-day.html" class="start-day-1 eff">
-                                <div class="start-day-2">
-                                    <div class="start-day-title">
-                                        <h3>Start Day</h3>
-                                        <p>Start day button</p>
+                            <a href="../views/delivery.html" class="delivery-1 eff">
+                                <div class="delivery-2">
+                                    <div class="delivery-title">
+                                        <h3>Delivery</h3>
+                                        <p>Delivery button</p>
                                     </div>
-                                    <i class="bi bi-calendar"></i>
+                                    <i class="bi bi-bag"></i>
                                 </div>
                             </a>
 
-                            <a href="../pages/end-day.html" class="end-day-1 eff">
-                                <div class="end-day-2">
-                                    <div class="end-day-title">
-                                        <h3>End Day</h3>
-                                        <p>End day button</p>
+                            <a href="../views/date-waste.html" class="waste-1 eff">
+                                <div class="waste-2">
+                                    <div class="waste-title">
+                                        <h3>Waste</h3>
+                                        <p>Waste button</p>
                                     </div>
-                                    <i class="bi bi-calendar-check"></i>
+                                    <i class="bi bi-trash3"></i>
                                 </div>
                             </a>
                         </div>
                         <!-- row2 -->
                          <div class="menu-row2">
-                            <a href="../pages/cash-in-drawer.html" class="cash-in-drawer-1 eff">
-                                <div class="cash-in-drawer-2">
-                                    <div class="cash-in-drawer-title">
-                                        <h3>Cash in <br> Drawer</h3>
-                                        <p>Cash in  drawer button</p>
+                            <a href="../views/date-delivery.html" class="edit-delivery-1 eff">
+                                <div class="edit-delivery-2">
+                                    <div class="edit-delivery-title">
+                                        <h3>Edit <br> Delivery</h3>
+                                        <p>Edit delivery button</p>
                                     </div>
-                                    <i class="bi bi-coin"></i>
+                                    <i class="bi bi-cart-plus"></i>
                                 </div>
                             </a>
 
-                            <a href="../pages/cash-drop.html" class="cash-drop-1 eff">
-                                <div class="cash-drop-2">
-                                    <div class="cash-drop-title">
-                                        <h3>Cash Drop</h3>
-                                        <p>Cash drop button</p>
+                            <a href="../views/date-waste.html" class="edit-waste-1 eff">
+                                <div class="edit-waste-2">
+                                    <div class="edit-waste-title">
+                                        <h3>Edit Waste</h3>
+                                        <p>Edit waste button</p>
                                     </div>
-                                    <i class="bi bi-cash-stack"></i>
+                                    <i class="bi bi-recycle"></i>
                                 </div>
                             </a>
                         </div>
                         <!-- row3 -->
                         <div class="menu-row3">
-                            <a href="../pages/reprint.html" class="reprint-recipt-1 eff">
-                                <div class="reprint-recipt-2">
-                                    <div class="reprint-recipt-title">
-                                        <h3>Reprint <br> Recipt</h3>
-                                        <p>Reprint recipt button</p>
+                            <a href="../views/stock.html" class="stock-1 eff">
+                                <div class="stock-2">
+                                    <div class="stock-title">
+                                        <h3>Stock</h3>
+                                        <p>Stock button</p>
                                     </div>
-                                    <i class="bi bi-printer"></i>
+                                    <i class="bi bi-list-check"></i>
                                 </div>
                             </a>
 
-                            <a href="../pages/void.html" class="void-transaction-1 eff">
-                                <div class="void-transaction-2">
-                                    <div class="void-transection-title">
-                                        <h3>Void <br> Transaction</h3>
-                                        <p>Void transaction button</p>
+                            <a href="../views/new-waste.html" class="new-waste-1 eff">
+                                <div class="new-waste-2">
+                                    <div class="new-waste-title">
+                                        <h3>New Waste</h3>
+                                        <p>New waste button</p>
                                     </div>
-                                    <i class="bi bi-file-earmark-x"></i>
+                                    <i class="bi bi-plus-circle"></i>
                                 </div>
                             </a>
                         </div>
@@ -140,25 +140,25 @@
                     <h3>MORE INFORMATION</h3> <br>
                     <div class="more-information-row">
                         <div class="more-information-column1">
-                            <a href="../pages/overview.html">Overview</a>
-                            <a href="../pages/ring-sales.html">Ring Sales</a>
-                            <a href="../pages/finished-waste.html">Finished Waste</a>
+                            <a href="../views/overview.html">Overview</a>
+                            <a href="../views/ring-sales.html">Ring Sales</a>
+                            <a href="../views/finished-waste.html">Finished Waste</a>
                             <a href="#">Recall Order</a>
-                            <a href="../pages/employees.html">Employees</a>
+                            <a href="../views/employees.html">Employees</a>
                         </div>
                         <div class="more-information-column2">
-                            <a href="../pages/time-punch.html">Time Punch</a>
-                            <a href="../pages/information.html">Information</a>
-                            <a href="../pages/cash-control.html">Cash Control</a>
-                            <a href="../pages/reprint.html">Reprint</a>
-                            <a href="../pages/void.html">Void Transaction</a>
+                            <a href="../views/time-punch.html">Time Punch</a>
+                            <a href="../views/information.html">Information</a>
+                            <a href="../views/cash-control.html">Cash Control</a>
+                            <a href="../views/reprint.html">Reprint</a>
+                            <a href="../views/void.html">Void Transaction</a>
                         </div>
                         <div class="more-information-column3">
-                            <a href="../pages/inventory.html">Inventory</a>
-                            <a href="../pages/delivery.html">Delivery</a>
-                            <a href="../pages/edit-waste.html">Edit Waste</a>
-                            <a href="../pages/stock.html">Stock</a>
-                            <a href="../pages/waste.html">Waste</a>
+                            <a href="../views/inventory.html">Inventory</a>
+                            <a href="../views/delivery.html">Delivery</a>
+                            <a href="../views/edit-waste.html">Edit Waste</a>
+                            <a href="../views/stock.html">Stock</a>
+                            <a href="../views/waste.html">Waste</a>
                         </div>
                     </div>
                 </div>
@@ -175,6 +175,6 @@
 
     </div><!-- Main content end -->
 
-    <script src="../js/cash-control.js"></script>
+    <script src="../js/inventory.js"></script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+{
+  "name": "myfavfood",
+  "version": "1.0.0",
+  "description": "MyFavFood is a web application designed to help restaurants efficiently manage their business operations, including:",
+  "homepage": "https://github.com/FolkJustSleep/MyFavFood#readme",
+  "bugs": {
+    "url": "https://github.com/FolkJustSleep/MyFavFood/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FolkJustSleep/MyFavFood.git"
+  },
+  "license": "ISC",
+  "author": "Kobchok Chuawong",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "node": "^24.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

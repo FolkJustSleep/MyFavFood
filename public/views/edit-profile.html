@@ -184,7 +184,7 @@
                     </div>
                     
                     <div class="back-btn">
-                        <a href="../pages/employees.html">Back?</a>
+                        <a href="../views/employees.html">Back?</a>
                     </div>
                     
                 </form>
@@ -225,13 +225,13 @@
                 } else {
                     // หากไม่มีสิทธิ์ให้กลับไปที่หน้า information
                     alert(data.message);
-                    window.location.href = '../pages/information.html'; // กลับไปหน้า information
+                    window.location.href = '../views/information.html'; // กลับไปหน้า information
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
                 alert('Something went wrong. Please try again later.');
-                window.location.href = '../pages/information.html';
+                window.location.href = '../views/information.html';
             });
         }
     </script> --> 
